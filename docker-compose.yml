@@ -13,7 +13,7 @@ services:
     hostname: kali-box
     command: "sleep 1000000"
     volumes:
-      - /Users/annika/Documents/kali:/pink
+      - ${SHARED_VOLUME}:/pink
 
 
 networks:
