@@ -8,4 +8,4 @@ To view container status:
 docker ps
 
 To enter container 
-docker exec -it <container id> bash
+docker exec -it ~container id~ bash
